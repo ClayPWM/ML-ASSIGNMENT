@@ -93,7 +93,7 @@ def main():
             frame_height = int(cap.get(4))
 
             fourcc = cv2.VideoWriter_fourcc(*'XVID')
-            output = cv2.VideoWriter('output.mp4', fourcc, 20.0, (frame_width, frame_height))
+            output = cv2.VideoWriter('cat and mirror.mp4', fourcc, 20.0, (frame_width, frame_height))
             
             if st.button("Detect Video Objects"):
                 
